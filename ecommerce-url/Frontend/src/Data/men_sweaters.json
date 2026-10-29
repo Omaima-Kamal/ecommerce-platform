@@ -1,0 +1,226 @@
+[
+    {
+        "imageUrl": "https://imgs.search.brave.com/1tf1Cm29lA-scar_G8DBgbsfrw_db8GJBD4WEIQkPps/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/ODE3UTNYdzBaUkwu/anBn",
+        "brand": "Men sweaters",
+        "color": "Gray",
+        "title": "Men Sweaters",
+        "discountedPrice": 899,
+        "price": 1899,
+        "discountPercent": 66,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 20
+            },
+            {
+                "name": "M",
+                "quantity": 30
+            },
+            {
+                "name": "L",
+                "quantity": 50
+            }
+        ],
+        "quantity": 100,
+        "topLevelCategory": "men",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "sweaters",
+        "description": "A traditional hat for men."
+    },
+    {
+        "imageUrl": "https://imgs.search.brave.com/3RHyOmm5uGhzJZpIOgQ756XtgMMJlYL5TzLB91kknjw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFwcE5OcDFyOEwu/anBn",
+        "brand": "Men sweaters",
+        "color": "Blue",
+        "title": "Men sweaters",
+        "discountedPrice": 250,
+        "price": 300,
+        "discountPercent": 2,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 30
+            },
+            {
+                "name": "M",
+                "quantity": 40
+            },
+            {
+                "name": "L",
+                "quantity": 50
+            }
+        ],
+        "quantity": 120,
+        "topLevelCategory": "men",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "sweaters",
+        "description": "A traditional sweaters for men."
+    },
+    {
+        "imageUrl": "https://imgs.search.brave.com/bq3bFeAJalqdemoCS7Ru_u3MibczFMKDQQt09ZVik0M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5rb2hsc2ltZy5j/b20vaXMvaW1hZ2Uv/a29obHMvODU2ODUx/Nl9MaWdodF9ZZWxs/b3c_d2lkPTM0MiZo/ZWk9MzQyJm9wX3No/YXJwZW49MQ",
+        "brand": "Men sweaters",
+        "color": "Yellow",
+        "title": "Men sweaters",
+        "discountedPrice": 450,
+        "price": 550,
+        "discountPercent": 5,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 50
+            },
+            {
+                "name": "M",
+                "quantity": 60
+            },
+            {
+                "name": "L",
+                "quantity": 50
+            }
+        ],
+        "quantity": 160,
+        "topLevelCategory": "men",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "sweaters",
+        "description": "A traditional sweaters for men."
+    },
+    {
+        "imageUrl": "https://imgs.search.brave.com/FZ_3qi3OLPkksz1RbWiH49FfDds46H__1fLA7bMtsOE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/ODF3WTZoT2VxMEwu/anBn",
+        "brand": "Men sweaters",
+        "color": "Purple",
+        "title": "Men sweaters",
+        "discountedPrice": 450,
+        "price": 550,
+        "discountPercent": 5,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 50
+            },
+            {
+                "name": "M",
+                "quantity": 60
+            },
+            {
+                "name": "L",
+                "quantity": 50
+            }
+        ],
+        "quantity": 160,
+        "topLevelCategory": "men",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "sweaters",
+        "description": "A traditional sweaters for men."
+    },
+    {
+        "imageUrl": "https://imgs.search.brave.com/1BU64BPmiEwTOA-XnI1kJY6yPKgidoccqmyWq3CJD18/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/ODFvLUVIakY1MEwu/anBn",
+        "brand": "Men sweaters",
+        "color": "Brown",
+        "title": "Men sweaters",
+        "discountedPrice": 399,
+        "price": 500,
+        "discountPercent": 5,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 30
+            },
+            {
+                "name": "M",
+                "quantity": 60
+            },
+            {
+                "name": "L",
+                "quantity": 30
+            }
+        ],
+        "quantity": 120,
+        "topLevelCategory": "men",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "sweaters",
+        "description": "A traditional sweaters for men."
+    },
+    {
+        "imageUrl": "https://imgs.search.brave.com/cmg7Z-HlAtFfR50GaeJ6QGgulsl1ntVV3ND37i2PDe8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzUxblo0VndmK3BM/LmpwZw",
+        "brand": "Men sweaters",
+        "color": "Black",
+        "title": "Men sweaters",
+        "discountedPrice": 600,
+        "price": 800,
+        "discountPercent": 4,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 30
+            },
+            {
+                "name": "M",
+                "quantity": 60
+            },
+            {
+                "name": "L",
+                "quantity": 30
+            }
+        ],
+        "quantity": 120,
+        "topLevelCategory": "men",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "sweaters",
+        "description": "A traditional sweaters for men."
+    },
+    {
+        "imageUrl": "https://imgs.search.brave.com/X3niVmnJbg9-pldkMtd5PUuhDQuklkLtOJzkNmVm2uU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/ODFkc0xTWXNEM0wu/anBn",
+        "brand": "Men sweaters",
+        "color": "Beige",
+        "title": "Men sweaters",
+        "discountedPrice": 299,
+        "price": 500,
+        "discountPercent": 4,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 10
+            },
+            {
+                "name": "M",
+                "quantity": 10
+            },
+            {
+                "name": "L",
+                "quantity": 10
+            }
+        ],
+        "quantity": 30,
+        "topLevelCategory": "men",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "sweaters",
+        "description": "A traditional sweaters for men."
+    },
+     {
+        "imageUrl": "https://imgs.search.brave.com/zLZ9Qb73nmxOHoO6IOm0lVfu9Drlx9-_Fdbc9AH0Kd8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzFrYUhaODJGekwu/anBn",
+        "brand": "Men sweaters",
+        "color": "White",
+        "title": "Men sweaters",
+        "discountedPrice": 299,
+        "price": 500,
+        "discountPercent": 4,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 10
+            },
+            {
+                "name": "M",
+                "quantity": 10
+            },
+            {
+                "name": "L",
+                "quantity": 10
+            }
+        ],
+        "quantity": 30,
+        "topLevelCategory": "men",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "sweaters",
+        "description": "A traditional sweaters for men."
+    }
+]

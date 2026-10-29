@@ -1,0 +1,146 @@
+[
+    {
+        "imageUrl": "https://m.media-amazon.com/images/I/614Vh2+CC6L.jpg",
+        "brand": "Majestic Man",
+        "color": "White",
+        "title": "Men Pure Cotton Straight suit",
+        "discountedPrice": 699,
+        "price": 1399,
+        "discountPercent": 50,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 20
+            },
+            {
+                "name": "M",
+                "quantity": 30
+            },
+            {
+                "name": "L",
+                "quantity": 25
+            }
+        ],
+        "quantity": 75,
+        "topLevelCategory": "men",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "suit",
+        "description": "A breathable pure cotton suit with a classic straight cut, perfect for everyday wear."
+    },
+    {
+        "imageUrl": "https://m.media-amazon.com/images/I/51gEG3V1OkL._AC_SR290,290_.jpg",
+        "brand": "SG Leman",
+        "color": "Black",
+        "title": "Men Embroidered Jacquard Straight suit",
+        "discountedPrice": 899,
+        "price": 1799,
+        "discountPercent": 50,
+        "sizes": [
+            {
+                "name": "M",
+                "quantity": 20
+            },
+            {
+                "name": "L",
+                "quantity": 20
+            },
+            {
+                "name": "XL",
+                "quantity": 15
+            }
+        ],
+        "quantity": 55,
+        "topLevelCategory": "men",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "suit",
+        "description": "Festive-ready suit with fine jacquard embroidery across the yoke."
+    },
+    {
+        "imageUrl": "https://image.made-in-china.com/368f3j00ypqtIaOFCLgS/Luxury-Navy-Jacquard-Men-s-3-Piece-Groom-Suits-Single-Breasted-Blazers-Pants-Vest-Plus-Size-for-Wedding-Formal-Prom.webp",
+        "brand": "FUBAR",
+        "color": "Blue",
+        "title": "Men Printed Cotton Blend Straight suit",
+        "discountedPrice": 549,
+        "price": 999,
+        "discountPercent": 45,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 15
+            },
+            {
+                "name": "M",
+                "quantity": 25
+            },
+            {
+                "name": "L",
+                "quantity": 20
+            },
+            {
+                "name": "XL",
+                "quantity": 10
+            }
+        ],
+        "quantity": 70,
+        "topLevelCategory": "men",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "suit",
+        "description": "Lightweight printed suit in a soft cotton blend, ideal for warm-weather daily wear."
+    },
+    {
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcScCIBW_j8vqK55feJF7ccPeVoEES2215TwKwxq7Vi7TbZnG0LHuo96NKIGrKD0tcYKotv55rOxOSmpkTEym6OPz-K5-8tYAqZaH3bfAoXJxw-oJOhRmcTQUJxnH5AysrpRh1vKS8Gs5Z8&usqp=CAc",
+        "brand": "Majestic Man",
+        "color": "Gray",
+        "title": "Men Solid Silk Blend Festive suit",
+        "discountedPrice": 1299,
+        "price": 2499,
+        "discountPercent": 48,
+        "sizes": [
+            {
+                "name": "M",
+                "quantity": 12
+            },
+            {
+                "name": "L",
+                "quantity": 15
+            },
+            {
+                "name": "XL",
+                "quantity": 10
+            }
+        ],
+        "quantity": 37,
+        "topLevelCategory": "men",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "suit",
+        "description": "Premium silk-blend suit with a subtle sheen, designed for festive occasions."
+    },
+    {
+        "imageUrl": "https://m.media-amazon.com/images/I/41X246F919L._AC_SY350_.jpg",
+        "brand": "Majestic Man",
+        "color": "Pink",
+        "title": "Men Solid Silk Blend Festive suit",
+        "discountedPrice": 1299,
+        "price": 2499,
+        "discountPercent": 48,
+        "sizes": [
+            {
+                "name": "M",
+                "quantity": 12
+            },
+            {
+                "name": "L",
+                "quantity": 15
+            },
+            {
+                "name": "XL",
+                "quantity": 10
+            }
+        ],
+        "quantity": 37,
+        "topLevelCategory": "men",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "suit",
+        "description": "Premium silk-blend suit with a subtle sheen, designed for festive occasions."
+    }
+]

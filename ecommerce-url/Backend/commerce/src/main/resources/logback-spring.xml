@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="2 minutes">
+
+    <property name="LOG_LEVEL" value="INFO"/>
+    <property name="LOG_PATH" value="./logs"/>
+
+    <appender name="CONSOLE_APPENDER" class="ch.qos.logback.core.ConsoleAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>${LOG_LEVEL:-INFO}</level>
+        </filter>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %thread %X{X-Correlation-Id} %-5level %C{2}.%M: %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ROLLING_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_PATH}/application.log</file>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>${LOG_LEVEL:-INFO}</level>
+        </filter>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %thread %X{X-Correlation-Id} %-5level %C{2}.%M: %msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_PATH}/application-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+<!--    <appender name="JSON_ROLLING_APPENDER"-->
+<!--              class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+
+<!--        <file>${LOG_PATH}/application-json.log</file>-->
+
+<!--        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">-->
+<!--            <level>${LOG_LEVEL:-INFO}</level>-->
+<!--        </filter>-->
+
+<!--        <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">-->
+
+<!--            <providers>-->
+
+<!--                <timestamp>-->
+<!--                    <timeZone>UTC</timeZone>-->
+<!--                </timestamp>-->
+
+<!--                <pattern>-->
+<!--                    <pattern>-->
+<!--                        {-->
+<!--                        "level":"%level",-->
+<!--                        "thread":"%thread",-->
+<!--                        "logger":"%logger",-->
+<!--                        "method":"%M",-->
+<!--                        "message":"%message",-->
+<!--                        "correlationId":"%X{X-Correlation-Id:-}",-->
+<!--                        "exception":"%exception{full}"-->
+<!--                        }-->
+<!--                    </pattern>-->
+<!--                </pattern>-->
+
+<!--                <mdc/>-->
+
+<!--            </providers>-->
+
+<!--        </encoder>-->
+
+<!--        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+<!--            <fileNamePattern>${LOG_PATH}/application-json-%d{yyyy-MM-dd}.log</fileNamePattern>-->
+<!--            <maxHistory>30</maxHistory>-->
+<!--        </rollingPolicy>-->
+
+<!--    </appender>-->
+    <appender name="ASYNC_ROLLING_APPENDER" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="ROLLING_APPENDER"/>
+        <discardingThreshold>0</discardingThreshold>
+        <queueSize>512</queueSize>
+    </appender>
+
+<!--    <appender name="ASYNC_JSON_ROLLING_APPENDER"-->
+<!--              class="ch.qos.logback.classic.AsyncAppender">-->
+<!--        <appender-ref ref="JSON_ROLLING_APPENDER"/>-->
+<!--        <discardingThreshold>0</discardingThreshold>-->
+<!--        <queueSize>512</queueSize>-->
+<!--    </appender>-->
+
+    <root level="${LOG_LEVEL:-INFO}">
+        <appender-ref ref="CONSOLE_APPENDER"/>
+        <appender-ref ref="ASYNC_ROLLING_APPENDER"/>
+<!--        <appender-ref ref="ASYNC_JSON_ROLLING_APPENDER"/>-->
+    </root>
+
+</configuration>
