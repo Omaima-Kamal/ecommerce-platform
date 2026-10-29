@@ -1,0 +1,226 @@
+[
+    {
+        "imageUrl": "https://imgs.search.brave.com/0zVvzHfkRwbHFhMp8uKW_gLZSgn1eACXpP383X4-cjI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zNy5s/YW5kc2VuZC5jb20v/aXMvaW1hZ2UvTGFu/ZHNFbmQvNTUzNTQy/X0xFUFBfTEZfQ0hI/PyRsZyQmd2lkPTU2/MCZoZWk9NTYwJmZt/dD13ZWJw",
+        "brand": "Women jackets",
+        "color": "Gray",
+        "title": "Women jackets",
+        "discountedPrice": 899,
+        "price": 1899,
+        "discountPercent": 66,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 20
+            },
+            {
+                "name": "M",
+                "quantity": 30
+            },
+            {
+                "name": "L",
+                "quantity": 50
+            }
+        ],
+        "quantity": 100,
+        "topLevelCategory": "women",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "jackets",
+        "description": "A traditional hat for women."
+    },
+    {
+        "imageUrl": "https://imgs.search.brave.com/EmpYcLkVONYoPDjIxmDZWkxrU5QBkzlr9i7gQhg0tMM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZS5obS5jb20vYXNz/ZXRzL2htLzMwL2Zl/LzMwZmUzYWMxOGRi/NGQ4MmRiYjc3ODFh/NzEwMGFlNzgxNDUz/MmQxNDUuanBn",
+        "brand": "Women jackets",
+        "color": "Blue",
+        "title": "Women jackets",
+        "discountedPrice": 250,
+        "price": 300,
+        "discountPercent": 2,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 30
+            },
+            {
+                "name": "M",
+                "quantity": 40
+            },
+            {
+                "name": "L",
+                "quantity": 50
+            }
+        ],
+        "quantity": 120,
+        "topLevelCategory": "women",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "jackets",
+        "description": "A traditional jackets for women."
+    },
+    {
+        "imageUrl": "https://imgs.search.brave.com/h5H62DtpEe2HYiL7eR8VJmy1Xyi8j_C2s-NyyLKISbY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTF5aVV0YVdsTUwu/anBn",
+        "brand": "Women jackets",
+        "color": "Yellow",
+        "title": "Women jackets",
+        "discountedPrice": 450,
+        "price": 550,
+        "discountPercent": 5,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 50
+            },
+            {
+                "name": "M",
+                "quantity": 60
+            },
+            {
+                "name": "L",
+                "quantity": 50
+            }
+        ],
+        "quantity": 160,
+        "topLevelCategory": "women",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "jackets",
+        "description": "A traditional jackets for women."
+    },
+    {
+        "imageUrl": "https://imgs.search.brave.com/4tu5MzD__aOaPMxmgCCyuY_Ug7xy12Fz3dzW_ub_c2s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/ODFnMlQzTmpkeUwu/anBn",
+        "brand": "Women jackets",
+        "color": "Green",
+        "title": "Women jackets",
+        "discountedPrice": 450,
+        "price": 550,
+        "discountPercent": 5,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 50
+            },
+            {
+                "name": "M",
+                "quantity": 60
+            },
+            {
+                "name": "L",
+                "quantity": 50
+            }
+        ],
+        "quantity": 160,
+        "topLevelCategory": "women",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "jackets",
+        "description": "A traditional jackets for women."
+    },
+    {
+        "imageUrl": "https://imgs.search.brave.com/w50QB0PQV_0u1Fx1hz_HZLz9WQ7NZRq7ZesR2ArtNQY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kZWNy/dW0uY29tL2Nkbi9z/aG9wL2ZpbGVzLzdf/YjIxMmM2YjktZDZk/OC00NDJiLTg3ZTYt/MTk1MWNkZmZmMGE1/LndlYnA_dj0xNzYz/MTI2NDkwJndpZHRo/PTYwMA",
+        "brand": "Women jackets",
+        "color": "Brown",
+        "title": "Women jackets",
+        "discountedPrice": 399,
+        "price": 500,
+        "discountPercent": 5,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 30
+            },
+            {
+                "name": "M",
+                "quantity": 60
+            },
+            {
+                "name": "L",
+                "quantity": 30
+            }
+        ],
+        "quantity": 120,
+        "topLevelCategory": "women",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "jackets",
+        "description": "A traditional jackets for women."
+    },
+    {
+        "imageUrl": "https://imgs.search.brave.com/IkXjLE96H6j7oRFJo1rTSwBPSiTtok_IoVlc1PPDScU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZS5obS5jb20vYXNz/ZXRzL2htLzk0L2Zi/Lzk0ZmJkZDZkMTE3/YzRkNTk1YzEzNjhm/YmJlMGUyNzI3NmFi/N2I0NTAuanBn",
+        "brand": "Women jackets",
+        "color": "Black",
+        "title": "Women jackets",
+        "discountedPrice": 600,
+        "price": 800,
+        "discountPercent": 4,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 30
+            },
+            {
+                "name": "M",
+                "quantity": 60
+            },
+            {
+                "name": "L",
+                "quantity": 30
+            }
+        ],
+        "quantity": 120,
+        "topLevelCategory": "women",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "jackets",
+        "description": "A traditional jackets for women."
+    },
+    {
+        "imageUrl": "https://imgs.search.brave.com/FyjaGiKMcErsSZrfroPi8mefOIyID7qRPP0LL-pRTA0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFnMnBGcCtzd0wu/anBn",
+        "brand": "Women jackets",
+        "color": "Beige",
+        "title": "Women jackets",
+        "discountedPrice": 299,
+        "price": 500,
+        "discountPercent": 4,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 10
+            },
+            {
+                "name": "M",
+                "quantity": 10
+            },
+            {
+                "name": "L",
+                "quantity": 10
+            }
+        ],
+        "quantity": 30,
+        "topLevelCategory": "women",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "jackets",
+        "description": "A traditional jackets for women."
+    },
+     {
+        "imageUrl": "https://imgs.search.brave.com/hWUwuFXFcOr7ysHaaSSntE8w08RgRa8Kn0SzMCcxJvs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmVi/YXlpbWcuY29tL2lt/YWdlcy9nL0RVb0FB/ZVN3U3JwcXcyemwv/cy1sMTIwMC53ZWJw",
+        "brand": "Women jackets",
+        "color": "Pink",
+        "title": "Women jackets",
+        "discountedPrice": 299,
+        "price": 500,
+        "discountPercent": 4,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 10
+            },
+            {
+                "name": "M",
+                "quantity": 10
+            },
+            {
+                "name": "L",
+                "quantity": 10
+            }
+        ],
+        "quantity": 30,
+        "topLevelCategory": "women",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "jackets",
+        "description": "A traditional jackets for women."
+    }
+]

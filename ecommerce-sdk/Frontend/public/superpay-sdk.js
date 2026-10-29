@@ -1,0 +1,143 @@
+(function (window) {
+  const SuperPay = {
+    initiateIframe(config) {
+      if (!config) {
+        throw new Error("SuperPay: configuration is required");
+      }
+
+      if (!config.merchant?.code) {
+        throw new Error("SuperPay: merchant.code is required");
+      }
+      if (!config.customer) {
+        throw new Error("SuperPay: customer is required");
+      }
+      if (!config.customer?.name) {
+        throw new Error("SuperPay: customer.name is required");
+      }
+      if (!config.customer?.email) {
+        throw new Error("SuperPay: customer.email is required");
+      }
+      if (!config.customer?.phoneNumber) {
+        throw new Error("SuperPay: customer.phoneNumber is required");
+      }
+      if (!config.merchant?.apiKey) {
+        throw new Error("SuperPay: merchant.apiKey is required");
+      }
+
+      if (!config.order?.merchantOrderId) {
+        throw new Error("SuperPay: order.merchantOrderId is required");
+      }
+
+      if (config.order?.amount === undefined) {
+        throw new Error("SuperPay: order.amount is required");
+      }
+
+      if (!config.order?.currency) {
+        throw new Error("SuperPay: order.currency is required");
+      }
+
+      const payload = {
+        merchant: {
+          code: config.merchant.code,
+          apiKey: config.merchant.apiKey,
+        },
+
+        order: {
+          merchantOrderId: config.order.merchantOrderId,
+          amount: Number(config.order.amount),
+          currency: config.order.currency,
+        },
+        customer: {
+          name: config.customer.name,
+          email: config.customer.email,
+          phoneNumber: config.customer.phoneNumber,
+        },
+
+        signature: config.signature,
+      };
+
+      // Optional fields
+      if (config.phoneNumber) {
+        payload.phoneNumber = config.phoneNumber;
+      }
+      if (config.captureType) {
+        payload.captureType = config.captureType;
+      }
+
+      if (config.redirectionURL) {
+        payload.redirectionURL = config.redirectionURL;
+      }
+
+      if (config.delayTime !== undefined) {
+        payload.delayTime = Number(config.delayTime);
+      }
+
+      if (config.defaultPaymentMode) {
+        payload.defaultPaymentMode = config.defaultPaymentMode;
+      }
+
+      if (config.merchantLanguage) {
+        payload.merchantLanguage = config.merchantLanguage;
+      }
+
+      if (config.callbackConfig) {
+        payload.callbackConfig = config.callbackConfig;
+      }
+
+      if (config.billingInfo) {
+        payload.billingInfo = config.billingInfo;
+      }
+
+      if (config.shippingInfo) {
+        payload.shippingInfo = config.shippingInfo;
+      }
+
+      // Convert payload to Base64
+      const base64String = btoa(JSON.stringify(payload));
+
+      // Generate idempotency key
+      const idempotencyKey = crypto.randomUUID();
+      const baseUrl = `https://api.promo-engine.superpay.com:22020/api/v1/external-payment`;
+
+      const url =
+        `${baseUrl}/` +
+        `${base64String}?idempotencyKey=${idempotencyKey}&integrationType=${"Embedded"}`;
+
+      const iframe = document.createElement("iframe");
+
+      iframe.name = "superpay-payment-iframe";
+
+      iframe.style.width = "500px";
+      iframe.style.height = "700px";
+      iframe.style.border = "1px solid #ccc";
+
+      const container = config?.container || document.body;
+
+      container.appendChild(iframe);
+
+      // ================================
+      // Create POST form
+      // ================================
+      const form = document.createElement("form");
+
+      form.method = "POST";
+      form.action = url;
+
+      // IMPORTANT:
+      // Submit the POST request into the iframe
+      form.target = iframe.name;
+
+      document.body.appendChild(form);
+
+      // Submit payment request
+      form.submit();
+
+      // Remove temporary form
+      form.remove();
+      return iframe;
+    },
+  };
+
+  // Expose SDK globally
+  window.SuperPay = SuperPay;
+})(window);

@@ -1,0 +1,202 @@
+[
+    {
+        "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQuCkNUFGnWZrBmEzkBOWH1cSuuq4j4xTYkXo5ydqaeXWC-petL1Tz0W59tuCK7KAQ6KMzm5ThGT4UjNF0EnCTO7quFrtKgZkq_PXFKlPr9edHcdxJjq2Mbgr9aP9GOMJsCj0cqguI&usqp=CAc",
+        "brand": "Linea Formals",
+        "color": "Blue",
+        "title": "Men Slim Fit Cotton Formal Shirt",
+        "discountedPrice": 799,
+        "price": 1599,
+        "discountPercent": 50,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 20
+            },
+            {
+                "name": "M",
+                "quantity": 30
+            },
+            {
+                "name": "L",
+                "quantity": 25
+            },
+            {
+                "name": "XL",
+                "quantity": 15
+            }
+        ],
+        "quantity": 90,
+        "topLevelCategory": "men",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "shirt",
+        "description": "A tailored slim-fit shirt in breathable cotton, suited for office wear."
+    },
+    {
+        "imageUrl": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/87/6590431/1.jpg?8687",
+        "brand": "Casual Co",
+        "color": "White",
+        "title": "Men Checked Casual Cotton Shirt",
+        "discountedPrice": 599,
+        "price": 1199,
+        "discountPercent": 50,
+        "sizes": [
+            {
+                "name": "M",
+                "quantity": 25
+            },
+            {
+                "name": "L",
+                "quantity": 25
+            },
+            {
+                "name": "XL",
+                "quantity": 15
+            }
+        ],
+        "quantity": 65,
+        "topLevelCategory": "men",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "shirt",
+        "description": "A relaxed-fit checked shirt made from soft cotton, perfect for weekend outings."
+    },
+    {
+        "imageUrl": "https://7camicie.com/cdn/shop/products/Button-down-Collar-Poplin-Stretch-Man-Shirt-Black-Plain-SFCGRSDE_1B_BD_2PS0002UNN000_7.jpg?v=1694044854",
+        "brand": "Linea Formals",
+        "color": "Black",
+        "title": "Men Solid Linen Shirt",
+        "discountedPrice": 899,
+        "price": 1699,
+        "discountPercent": 47,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 15
+            },
+            {
+                "name": "M",
+                "quantity": 20
+            },
+            {
+                "name": "L",
+                "quantity": 15
+            }
+        ],
+        "quantity": 50,
+        "topLevelCategory": "men",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "shirt",
+        "description": "Breathable linen shirt with a clean, solid finish for a smart-casual look."
+    },
+    {
+        "imageUrl": "https://image.hm.com/assets/hm/ba/21/ba2108fc7c0fa2faa10607571ab2464a95e90406.jpg?imwidth=2160",
+        "brand": "Linea Formals",
+        "color": "Beige",
+        "title": "Men Solid Linen Shirt",
+        "discountedPrice": 899,
+        "price": 1699,
+        "discountPercent": 47,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 15
+            },
+            {
+                "name": "M",
+                "quantity": 20
+            },
+            {
+                "name": "L",
+                "quantity": 15
+            }
+        ],
+        "quantity": 50,
+        "topLevelCategory": "men",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "shirt",
+        "description": "Breathable linen shirt with a clean, solid finish for a smart-casual look."
+    },
+    {
+        "imageUrl": "https://m.media-amazon.com/images/I/71Otn4nA5WL._AC_SX569_.jpg",
+        "brand": "Linea Formals",
+        "color": "Gray",
+        "title": "Men Solid Linen Shirt",
+        "discountedPrice": 899,
+        "price": 1699,
+        "discountPercent": 47,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 15
+            },
+            {
+                "name": "M",
+                "quantity": 20
+            },
+            {
+                "name": "L",
+                "quantity": 15
+            }
+        ],
+        "quantity": 50,
+        "topLevelCategory": "men",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "shirt",
+        "description": "Breathable linen shirt with a clean, solid finish for a smart-casual look."
+    },
+    {
+        "imageUrl": "https://hrd-live.cdn.scayle.cloud/images/925a4d411b2e80f6d775ef053f04e862.jpg?brightness=1&width=922&height=1230&quality=75&bg=ffffff",
+        "brand": "Linea Formals",
+        "color": "Pink",
+        "title": "Men Solid Linen Shirt",
+        "discountedPrice": 899,
+        "price": 1699,
+        "discountPercent": 47,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 15
+            },
+            {
+                "name": "M",
+                "quantity": 20
+            },
+            {
+                "name": "L",
+                "quantity": 15
+            }
+        ],
+        "quantity": 50,
+        "topLevelCategory": "men",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "shirt",
+        "description": "Breathable linen shirt with a clean, solid finish for a smart-casual look."
+    },
+    {
+        "imageUrl": "https://www.pamoni-uk.com/cdn/shop/files/1779880792338.png?crop=center&height=967&v=1779885110&width=645",
+        "brand": "Linea Formals",
+        "color": "Yellow",
+        "title": "Men Solid Linen Shirt",
+        "discountedPrice": 899,
+        "price": 1699,
+        "discountPercent": 47,
+        "sizes": [
+            {
+                "name": "S",
+                "quantity": 15
+            },
+            {
+                "name": "M",
+                "quantity": 20
+            },
+            {
+                "name": "L",
+                "quantity": 15
+            }
+        ],
+        "quantity": 50,
+        "topLevelCategory": "men",
+        "secondLevelCategory": "clothing",
+        "thirdLevelCategory": "shirt",
+        "description": "Breathable linen shirt with a clean, solid finish for a smart-casual look."
+    }
+]
